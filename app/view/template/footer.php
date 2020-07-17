@@ -1,6 +1,6 @@
 <?php //include TEMPLATE . 'promos.php'?>
 <!-- Footer -->
-<div class="footer-banner"></div>
+<div class="footer-banner parallax-window" data-image="https://www.jerusalemgatehotel.com//octopus/Upload/images/Pages/1900x811-main-banner.jpg"></div>
 <footer class="page-footer font-small unique-color-dark">
 
   <div class="bg-custom custom-border-bottom">
@@ -11,34 +11,38 @@
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-white text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
+          <h6 class="mb-0">
+            <div class="animate__animated footer_1">
+            Get connected with us on social networks!
+            </div>
+          </h6>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
-
           <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f white-text mr-4">F</i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4">T</i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g white-text mr-4">G</i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4">L</i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram white-text">I</i>
-          </a>
-
+          <div class="animate__animated footer_2">
+            <a class="fb-ic" href="#">
+              <i class="fab fa-facebook-f text-white mr-3"></i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic" href="#">
+              <i class="fab fa-twitter text-white mr-3"></i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic" href="#">
+              <i class="fab fa-google-plus-g text-white mr-3"></i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic" href="#">
+              <i class="fab fa-linkedin-in text-white mr-3"></i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic" href="#">
+              <i class="fab fa-instagram text-white"></i>
+            </a>
+          </div>
         </div>
         <!-- Grid column -->
 
@@ -102,7 +106,7 @@
           <a href="#!">Become an Affiliate</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="#!">Booking Rates</a>
         </p>
         <p>
           <a href="#!">Help</a>
@@ -120,7 +124,7 @@
         <p>
           <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <i class="fas fa-envelope mr-3"></i> support@pinetrip.tk</p>
         <p>
           <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
         <p>
@@ -130,19 +134,17 @@
       <!-- Grid column -->
 
     </div>
-    <!-- Grid row -->
+    <!-- Grid row --> 
 
   </div>
   <!-- Footer Links -->
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="/"> PinetripHotel.com</a>
+    <a href="/"> Pinetrip.tk</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-<script src="/js/default/custom.js"></script>
-</body>
-</html>
+<?php include TEMPLATE . 'footer_main.php'?>

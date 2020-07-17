@@ -24,4 +24,8 @@ Class View {
         return (explode('\\',$this->view_file)[1]);
     }
 
+    public function renderEmpty(){ // render page file only
+        include(VIEW . $this->view_file . '.php');
+    }
+
 }

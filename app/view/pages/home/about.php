@@ -1,4 +1,4 @@
-<div class="spacer-banner no-top-border"></div>
+<div class="spacer-banner no-top-border parallax-window" data-image="https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg"></div>
 <div class="row">
 <div class="container">
 <div class="section">
@@ -7,7 +7,7 @@
 <h1>About Pinetrip Hotel</h1>
 <hr class="pine">
 <p>
-This website is a sample work to showcase some of my skills in webdevelopment. If you're intrested in my work, please do not hesitate to reach me <a href="#">here.</a> 
+This website is a sample work to showcase some of my skills in webdevelopment. If you're intrested in my work, please do not hesitate to reach me <a href="/home/contact">here.</a> 
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet eros tellus, at tempor leo auctor a. Sed a enim finibus, iaculis lacus a, molestie lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In mattis sed tortor quis vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ipsum ut dui tempor pharetra eu vitae ex. Vestibulum sagittis eget urna ac gravida. Sed et gravida massa. Cras quis urna ornare, viverra enim at, condimentum enim. Integer consequat sed nisi nec vulputate. Mauris sit amet tortor eros. Vivamus molestie vel nibh et viverra. Fusce vehicula est dictum tincidunt consequat. Fusce non quam non urna cursus gravida.

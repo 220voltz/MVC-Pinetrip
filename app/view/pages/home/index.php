@@ -43,11 +43,11 @@
         </div>
     </div>
     <div class="spacer-blank"></div>
-    <div class="spacer-banner"></div>
+    <div class="spacer-banner parallax-window" data-image="https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg"></div>
     <!-- <hr> -->
     <main role="main">
         <div class="container marketing">
-            <div class="row featurette 1 animate__animated">
+            <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Designer rooms. <span class="text-muted">It’ll blow your mind.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -62,7 +62,7 @@
         <hr class="featurette-divider">
     
         <div class="container marketing">
-            <div class="row featurette 2 animate__animated">
+            <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -77,7 +77,7 @@
         <hr class="featurette-divider">
         
         <div class="container marketing">
-            <div class="row featurette 3 animate__animated">
+            <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Take a dip!</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>

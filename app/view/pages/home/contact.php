@@ -1,4 +1,4 @@
-<div class="spacer-banner no-top-border"></div>
+<div class="spacer-banner no-top-border parallax-window" data-image="https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg"></div>
 <div class="row">
     <div class="container">
         <div class="col-md-12">

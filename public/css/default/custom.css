@@ -1,6 +1,11 @@
+body{
+  overflow-x: hidden !important;
+  /* display:none; */
+}
+
 /* Slider */
 .carousel-item {
-  height: 92vh !important;
+  height: 99vh !important;
   /* height: 70vh !important; */
   min-height: 300px;
   background: no-repeat center center scroll;
@@ -14,12 +19,16 @@
 
 .carousel-caption {
   text-shadow: 3px 2px 4px black;
-  top: 0;
+  top: 5em;
   color: white;
 }
 .carousel-item-1 {
   background-image: url("https://wallpapercave.com/wp/wp4381527.jpg");
   background-position: bottom;
+}
+
+.carousel-item {
+  background-attachment: fixed;
 }
 
 .carousel-item-1 .carousel-caption {
@@ -56,13 +65,18 @@ footer {
   border-top: 10px solid darkkhaki;
 }
 
-.navbar img {
-  margin: -15px;
-  min-width: 15%;
+.navbar-brand {
+  margin: auto;
+  width: 10em;
+}
+
+.navbar-brand img {
+  width: inherit;
 }
 
 .btn-primary {
   box-shadow: 2px 2px 3px gray;
+  margin-bottom: 1em;
 }
 
 
@@ -129,20 +143,22 @@ footer {
 
 .footer-banner {
   height: 12em;
-  background-image: url(https://www.jerusalemgatehotel.com//octopus/Upload/images/Pages/1900x811-main-banner.jpg);
+  /* background-image: url(https://www.jerusalemgatehotel.com//octopus/Upload/images/Pages/1900x811-main-banner.jpg); */
   background-position: right center;
   background-size: cover;
   border-top: 10px solid darkkhaki;
   margin-top: 5em;
+  background-attachment: fixed;
 }
 .spacer-banner {
   height: 12em;
-  background-image: url(https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg);
+  /* background-image: url(https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg); */
   background-position: right center;
   background-size: cover;
   border-bottom: 10px solid darkkhaki;
   border-top: 10px solid darkkhaki;
   margin-bottom: 5em;
+  background-attachment: fixed;
 }
 .spacer-banner.no-top-border {
   border-top: 0;
@@ -156,9 +172,47 @@ footer {
 .banner-main-text {
   position: absolute;
   bottom:20%;
-  opacity: .8;
+  opacity: .8 !IMPORTANT;
+  min-width: 35em;
+  background-color: goldenrod;
 }
 
 .banner-main-text h1{
   font-size:4rem;
+}
+
+header {
+  position: fixed;
+    z-index: 11;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* accomodation */
+
+#accomodation .card {
+  min-height: 300px;
+  width: 100%;
+  background-color: gray;
+  background-size: 'cover' ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#accomodation .card.card_1{
+  background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+}
+#accomodation .card.card_2{
+  background-image: url('https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+#accomodation .card.card_3{
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/living-room-ideas3-1524244774.jpg');
+}
+#accomodation .card.card_4{
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/white-living-room-sunny-1582128304.jpg');
+}
+#accomodation .card.card_5{
+  background-image: url('https://media.architecturaldigest.com/photos/560c37dd7da26e3235ad995e/2:1/w_1200,h_600,c_limit/gray-living-room-01.jpg');
 }

@@ -1,6 +1,6 @@
 <?php
 
-Class Application {
+Class Application{
     protected $controller = 'homeController';
     protected $action = 'index';
     protected $params = [];
@@ -9,6 +9,10 @@ Class Application {
         $this->prepareURL();
         
         if(file_exists(CONTROLLER . $this->controller . '.php')){
+
+            require( CORE . 'controller.php' );
+            require( CONTROLLER . $this->controller .'.php' );
+
             $this->controller = new $this->controller;
             if(method_exists($this->controller,$this->action)){
                 call_user_func_array([$this->controller,$this->action],$this->params);

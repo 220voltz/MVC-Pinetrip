@@ -1,17 +1,29 @@
-$(document).ready(function(){
+$(document).ready(function(evt){
+    // console.log(evt);
+
+    $('.parallax-window').each(function(){
+        var bgImage = $(this).attr('data-image');
+        $(this).parallax({imageSrc:bgImage});
+    });
+
+    $('.banner-main-text').addClass('animate__fadeInLeft').attr('style', 'visibility: visible !important;');
     
-    var vp = ((parseInt($(window).height())/100)*80); // 80% of screen start animation
-    console.log(Math.floor(vp));
+    var vp = ((parseInt($(window).height())/100)*90); // 90% of screen start animation
 
-    $(window).scroll(function(){
+    $(window).on('scroll',function(){
         
-        $('.rounded-circle-1:in-viewport('+vp+')').addClass('animate__zoomIn').attr('style', 'visibility: visible !important;');
-        $('.rounded-circle-2:in-viewport('+vp+')').addClass('animate__zoomIn').attr('style', 'visibility: visible !important;');
-        $('.rounded-circle-3:in-viewport('+vp+')').addClass('animate__zoomIn').attr('style', 'visibility: visible !important;');
-        $('.rounded-circle-4:in-viewport('+vp+')').addClass('animate__zoomIn').attr('style', 'visibility: visible !important;');
+        $('.rounded-circle:in-viewport('+vp+')').addClass('animate__bounceIn').attr('style', 'visibility: visible !important;');
 
-        $('.featurette.1.animate__animated:in-viewport('+vp+')').addClass('animate__fadeInRight').attr('style', 'visibility: visible !important;');
-        $('.featurette.2.animate__animated:in-viewport('+vp+')').addClass('animate__fadeInLeft').attr('style', 'visibility: visible !important;');
-        $('.featurette.3.animate__animated:in-viewport('+vp+')').addClass('animate__fadeInRight').attr('style', 'visibility: visible !important;');
+        $('.footer_1:in-viewport('+vp+')').addClass('animate__fadeInLeft').attr('style', 'visibility: visible !important;');
+        $('.footer_2:in-viewport('+vp+')').addClass('animate__fadeInRight').attr('style', 'visibility: visible !important;');
+
+    });
+
+    $('.animate__animated.visible').on('mouseover mouseout',function(evt){
+        if(evt.type == 'mouseover'){
+            $(this).addClass('animate__pulse');
+        }else{
+            $(this).removeClass('animate__pulse');
+        }
     });
 });
