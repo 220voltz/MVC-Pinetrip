@@ -1,0 +1,164 @@
+/* Slider */
+.carousel-item {
+  height: 92vh !important;
+  /* height: 70vh !important; */
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* https://images.assetsdelivery.com/compings_v2/kembud/kembud2001/kembud200100281.jpg */
+
+.carousel-caption {
+  text-shadow: 3px 2px 4px black;
+  top: 0;
+  color: white;
+}
+.carousel-item-1 {
+  background-image: url("https://wallpapercave.com/wp/wp4381527.jpg");
+  background-position: bottom;
+}
+
+.carousel-item-1 .carousel-caption {
+  bottom: 40%;
+}
+
+.carousel-item-2 {
+  background-image: url("https://discoveryshoresboracaydemo.hotelpropeller.com/files/2018/10/site-banner-2-1500x701-1500x701.jpg");
+  background-size: cover;
+  background-position: left;
+}
+
+.carousel-item-3 {
+  background-image: url("https://sctelco.com/wp-content/uploads/2017/09/mobile-deposit-banner-main.png");
+}
+.carousel-caption .span {
+ border: 1px solid black;
+}
+
+footer {
+  padding-bottom: 1.5rem;
+}
+
+/* Navbar */
+.bg-custom {
+  background-color: #3a5c68 !important;
+}
+
+.custom-border-bottom{
+  border-bottom: 10px solid darkkhaki;
+}
+
+.custom-border-top{
+  border-top: 10px solid darkkhaki;
+}
+
+.navbar img {
+  margin: -15px;
+  min-width: 15%;
+}
+
+.btn-primary {
+  box-shadow: 2px 2px 3px gray;
+}
+
+
+.bd-placeholder-img-1 {
+  background-image: url(https://www.wallpapermania.eu/images/lthumbs/2012-08/3406_Red-and-gray-living-room-HD-wallpaper.jpg);
+}
+.bd-placeholder-img-2 {
+  background-image: url(https://conradhotels3.hilton.com/resources/media/ch/MNLMBCI/en_US/img/shared/carousel/main/CN_on3brasseriedining_2.jpg);
+}
+.bd-placeholder-img-3 {
+  background-image: url(https://www.stgileshotels.com/wp-content/uploads/2016/02/Pool3.jpg);
+}
+.bd-placeholder-img {
+  width: 100%;
+  height: 300px;
+  border: 10px solid darkkhaki;
+  background-position: 12% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* box-shadow: 15px 15px 20px 2px grey; */
+}
+
+.animate__animated{
+  visibility: hidden;
+}
+
+hr{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.rounded-circle {
+  /* margin:auto; */
+  margin-bottom:1em;
+  background-image: url(/images/hotel_icons/kembud200100281.jpg);
+  border: 4px solid silver !important;
+  width:100px;
+  height:100px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 553%;
+}
+
+.rounded-circle-1 {
+  background-position: 19em 6em;;
+}
+.rounded-circle-2 {
+  background-position: 18.8em 27.1em;
+}
+.rounded-circle-3 {
+  background-position: 45em 20.1em;
+}
+.rounded-circle-4 {
+  background-position: 39.4em 13em;
+}
+
+footer {
+  background-color: whitesmoke;
+}
+
+.footer-banner {
+  height: 12em;
+  background-image: url(https://www.jerusalemgatehotel.com//octopus/Upload/images/Pages/1900x811-main-banner.jpg);
+  background-position: right center;
+  background-size: cover;
+  border-top: 10px solid darkkhaki;
+  margin-top: 5em;
+}
+.spacer-banner {
+  height: 12em;
+  background-image: url(https://www.sviettravel.com/wp-content/uploads/2015/07/hotel-banner-.jpg);
+  background-position: right center;
+  background-size: cover;
+  border-bottom: 10px solid darkkhaki;
+  border-top: 10px solid darkkhaki;
+  margin-bottom: 5em;
+}
+.spacer-banner.no-top-border {
+  border-top: 0;
+  margin-bottom: 0;
+}
+
+.spacer-blank {
+  height: 3em;
+}
+
+.banner-main-text {
+  position: absolute;
+  bottom:20%;
+  opacity: .8;
+}
+
+.banner-main-text h1{
+  font-size:4rem;
+}

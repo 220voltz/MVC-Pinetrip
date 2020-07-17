@@ -1,0 +1,5 @@
+1,single,a room assigned to 1 person.,2
+2,double,a room assigned to 2 person.,2
+3,queen,a room with queen-sized bed.,4
+4,king,a room with king-sized bed.,4
+5,twin,a room with 2 beds.,3
